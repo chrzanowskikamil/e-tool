@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="s">
+    <meta name="author" content="Kamil Chrzanowski">
+    <meta name="creator" content="e-TOOL Kamil Chrzanowski">
+    <meta name="publisher" content="e-TOOL Kamil Chrzanowski">
+    <meta name="robots" content="index">
+    <meta name="description" content="Narzędzie dla serwisów samochodowych">
+    <meta name="keywords"
+        content="system, platforma, zlecenie, kosztorys, rozliczanie, faktury, narzędzie, dla, serwisów, samochodowych, program, program serwisowy, serwis, pomoc, obsługa, obsługa serwisów, obsługa serwisowa, narzędzie serwisowe, warsztat, warsztat samochodowy, warsztat blacharsko lakierniczy, blacharka, lakier, lakierowanie, doradca, doradztwo">
+    <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+    <link rel="shortcut icon" href="titleicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>e-TOOL - narzędzie dla serwisów samochodowych</title>
+</head>
+
+
+<body>
+    <!-- M E N U -->
+    <div class="background">
+        <div class="menu">
+            <a href="index.html" class="logo"><img src="logo.png">e-TOOL</a>
+            <div class="menu-right">
+                <a class="active" href="index.html"><img src="home.png" class="minatures">Start</a>
+                <a class="active" href="contactus.html" target="_blank"><img src="contact.png" class="minatures">Napisz
+                    do nas</a>
+                <a class="active" href="#"><img src="aboutus.png" class="minatures">O nas</a>
+            </div>
+        </div>
+        <!-- M E N U -->
+
+
+        <!-- L O G I N -->
+        <div id="login-container" class="login-container">
+            <form class="form-login" action="#">
+                <div class="login">
+                    <input type="text" placeholder="Login" title="Podaj login" required="">
+                </div>
+                <div class="password">
+                    <input type="password" placeholder="Hasło" title="Podaj hasło" required="">
+                </div>
+                <button id="forgot-password-btn" class="forgot-password-btn" type="menu">Nie pamiętasz hasła?</button>
+                <button class="accept-button" type="submit">Zaloguj</button>
+                <button id="create-acc-btn" class="create-account" type="menu">Stwórz konto</button>
+            </form>
+        </div>
+        <!-- L O G I N -->
+
+
+        <!-- R E G I S T E R -->
+        <div id="register" class="register">
+            <div class="register-menu">
+                <span class="close-button">&times;</span>
+                <h1>Wypełnij poniższy formularz, aby założyć konto:</h1>
+                <form class="form-register" action="#">
+                    <div class="username">
+                        <input class="register-input" type="text" placeholder="Nazwa użytkownika"
+                            title="Podaj nazwę użytkownika" required="">
+                    </div>
+                    <div class="register-error">Nazwa użytkownika powinna zawierać min. 3 znaki.</div>
+                    <div class="first-name">
+                        <input class="register-input" type="text" placeholder="Imię" title="Podaj imię" required="">
+                    </div>
+                    <div class="second-name">
+                        <input class="register-input" type="text" placeholder="Nazwisko" title="Podaj nazwisko"
+                            required="">
+                    </div>
+                    <div class="new-mail-adress">
+                        <input class="register-input" type="text" placeholder="E-mail" title="Podaj adres e-mail"
+                            required="">
+                    </div>
+                    <div class="register-error">Podany adres e-mail jest nieprawidłowy!</div>
+                    <div class="new-password">
+                        <input class="register-input" type="password" placeholder="Hasło" title="Podaj hasło"
+                            required="">
+                    </div>
+                    <div class="register-error">Hasło powinno zawierać min. 6 znaków.</div>
+                    <div class="confirm-passowrd">
+                        <input class="register-input" type="password" placeholder="Powtórz hasło" title="Podaj hasło"
+                            required="">
+                    </div>
+                    <div class="register-error">Podane hasła nie są takie same!</div>
+                    <button class="accept-button" type="submit">Zarejestruj</button>
+                </form>
+            </div>
+        </div>
+        <!-- R E G I S T E R -->
+
+
+        <!-- L O S T   P A S S W O R D  -->
+        <div id="forgot-password" class="forgot-password">
+            <div class="forgot-password-menu">
+                <span class="close-button">&times;</span>
+                <h1>Wypełnij poniższy formularz, aby ustawić nowe hasło</h1>
+                <form class="form-lost-passowrd" action="#">
+                    <div class="mail-adress">
+                        <input type="text" placeholder="Podaj swój adres e-mail" title="Podaj e-mail" required="">
+                    </div>
+                    <button class="accept-button" type="submit">Akceptuj</button>
+                </form>
+            </div>
+        </div>
+        <!-- L O S T   P A S S W O R D  -->
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
